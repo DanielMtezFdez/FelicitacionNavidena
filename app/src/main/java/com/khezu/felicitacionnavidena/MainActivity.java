@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().hide();
+
         //MediaPlayer
         boton = (ImageButton)findViewById(R.id.boton);
         mp = MediaPlayer.create(this, R.raw.jingle_bell_rock);
